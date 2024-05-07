@@ -1,0 +1,23 @@
+{
+  "name": "heckel_corey_ws_lab3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Corey Heckel 10462028",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.10.0",
+    "flat": "^6.0.1",
+    "graphql": "^16.8.1",
+    "mongodb": "^6.3.0",
+    "node": "^21.6.2",
+    "node-redis": "^0.1.7",
+    "redis": "^4.6.13",
+    "uuid": "^9.0.1"
+  }
+}
